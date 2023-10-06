@@ -4,7 +4,7 @@
  * @supported Quantumult X (v1.0.5-build188)
  *
  * [rewrite_local]
- * ^http://img\.hellogithub\.com\/i\/.* url script-request-header sample-rewrite-request-header.js
+ * ^http://img\.hellogithub\.com\/i\/.* url script-request-header https://raw.githubusercontent.com/zzturn/Scripts/master/hellogithub_img_rss.js
  */
 
 // $request.scheme, $request.method, $request.url, $request.path, $request.headers
